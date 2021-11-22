@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #323232;
+  font-family: 'Lato';
+}
+
+a{
+  text-decoration: none;
+  color: #E5E5E5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.home {
+  display: flex;
+}
+
+.container .name {
+  position: absolute;
+  bottom: 250px;
+  left: 60px;
+}
+
+.bar-lateral {
+  background: url('../img/back-onda.png') no-repeat center;
+  flex: 5;
+}
+
+.bar-lateral .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.main {
+  flex: 7;
+}
+
+.nav-list ul{
+  list-style: none;
+}
+
+.menu {
+  height: 70px;
+  background: #FC8600;
+}
+
+.menu .nav-list ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .nav-list ul li {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  text-shadow: 0em 0.15em 0.2em #696969;
+  font-family: 'Raleway', sans-serif;
+}
+
+.about {
+  display: flex;
+  background-color: #FD9520;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.about .apresentation{
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about .doug {
+  flex: 5;
+}
+
+.about .text {
+  width: 670px;
+  margin-top: 48px;
+  color: #FCFDFD;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  line-height: 1.5em;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about .hi {
+  font-weight: bold;
+}
+
+.about .talk {
+  margin-top: 30px;
+}
+
+.about .btn {
+  border-radius: 13px;
+  background: #323232;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+  padding: 14px 43px;
+  margin-top: 30px;
+}
+
+.works {
+  background: url('../img/black-waves.png') no-repeat center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.works .title {
+  margin: 60px 0 40px 0;
+}
+
+.works .pages img{
+  width: 946px;
+  height: 1664px;
+}
+
+.works .contact {
+  margin: 20px 0 80px 0;
+}
+
+.footer {
+  display: flex;
+  background-color: #FD9520;
+  height: 82px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  padding: 10px;
+}
